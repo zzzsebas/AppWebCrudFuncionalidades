@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css">
+    <title>Actualizar</title>
+</head>
+<body>
+    
+<section id="contenedor1">
+    <h3>actualizar información</h3>
+
+    <form action="../php/update.php" method="POST">
+<select name="campoamodificar">
+    <option value="nombre">nombre</option>
+    <option value="apellido">apellido</option>
+    <option value="email">email</option>
+    <option value="identificacion">identificacion</option>
+</select><br>
+<input type="text" placeholder="digite identificacion" name="id"><br>
+<input type="text" placeholder="digite nuevo dato" name="ndato"><br>
+<input type="submit" value="ACTUALIZAR">
+
+    </form>
+
+</section>
+
+</body>
+</html>
